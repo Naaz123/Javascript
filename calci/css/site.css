@@ -1,0 +1,86 @@
+@import url('reset.css');
+
+body
+{
+  font-family: 'Gudea', sans-serif;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.calculator
+{
+  width: 375px;
+  background-color: #7ef7e8; /*aqua*/
+  margin: 60px auto;
+  position: relative;
+}
+
+.calculator-inner
+{
+  margin: 35px;
+  border: 1px solid #7ef7e8;;
+}
+
+.total
+{
+  height: 60px;
+  margin: 50px 0 30px 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: right;
+  color: #FFC0CB; /*pink*/
+  padding: 10px 20px;
+}
+
+.buttons
+{
+  display: table;
+  margin-bottom: 30px;
+}
+
+.buttons a
+{
+  width: 60px;
+  height: 60px;
+  margin: 0 20px 20px 0;
+  margin-bottom: 20px;
+  float: left;
+  background-color: #888;
+  text-align: center;
+  padding: 10px;
+}
+
+.buttons a:hover
+{
+  cursor: pointer;
+}
+
+.buttons a:active
+{
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  opacity: .5;
+}
+
+.buttons a:nth-child(4n)
+{
+  margin-right: 0;
+}
+
+.operators a:nth-child(3)
+{
+  font-size: .8em;
+  padding: 15px;
+}
+
+.operators a:last-child
+{
+  padding: 20px;
+}
+
+#clear
+{
+  background-color: #FFC0CB; /*pink*/
+}
