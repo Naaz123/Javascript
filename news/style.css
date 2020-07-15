@@ -1,0 +1,48 @@
+
+.container{
+    margin: 10px;
+}
+
+.bottom-line {
+    bottom: 0;
+    border-bottom: 1px black solid;
+}
+
+.top-line {
+    bottom: 0;
+    border-top: 1px black solid;
+}
+
+.bb{
+    border-bottom: 1px black solid;
+}
+
+.font-weight-bold{
+    font-size: 110px;   
+}
+
+.red{
+    background-color: rgb(131, 11, 11);
+    color: white;
+}
+
+.col-4{
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.pad-top{
+    padding-top: 20px;
+}
+
+.red-text{
+    padding: 20px;
+    font-size:20px;
+    color: rgb(179, 21, 21);
+
+}
+
+hr{
+    background-color: black;`
+    height: ;
+}
