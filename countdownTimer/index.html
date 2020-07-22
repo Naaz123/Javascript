@@ -1,0 +1,27 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<style> 
+p { 
+  text-align: center; 
+  font-size: 60px; 
+} 
+</style> 
+</head> 
+<body> 
+
+    <script> 
+    var myVar;
+
+    var myFunction = function(a,t,callback) {  
+        return callback(a,t);
+    }
+
+    for(var i=10,t=1000; i>=1;i--,t+=1000)
+        myFunction(i,t,function(a,t){setTimeout(()=>{document.write(a+'..')}, t)});      
+    
+    setTimeout(()=>{document.write("Happy Morning")}, 11000)
+    </script> 
+    
+</body> 
+</html>
