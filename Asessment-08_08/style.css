@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+div{
+    /* background-color: aliceblue; */
+    text-align: center;
+}
+
+.col-12{
+    background-color: aliceblue;
+    
+}
+
+.card-body{
+    width:80%;
+    float: left;
+}
+
+.card-img{
+    float: left;
+}
